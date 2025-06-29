@@ -9,14 +9,9 @@ namespace ConeHoldable
     [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
     public class Plugin : BaseUnityPlugin
     {
-        bool done;
-        void Update()
+        void Awake()
         {
-            if (done || GorillaTagger.Instance.offlineVRRig == null || GorillaLocomotion.GTPlayer.Instance == null)
-                return;
-
-            OnGameInitialized();
-            done = true;
+            GorillaTagger.OnPlayerSpawned(OnGameInitialized);
         }
 
         void OnGameInitialized()
