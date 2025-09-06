@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.8.34309.116
+VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConeHoldable", "ConeHoldable\ConeHoldable.csproj", "{2626C4E8-F23B-4B12-8128-3BD93331B348}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConeHoldable", "ConeHoldable.csproj", "{794B7A25-D56C-930F-9428-3926894440CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2626C4E8-F23B-4B12-8128-3BD93331B348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2626C4E8-F23B-4B12-8128-3BD93331B348}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2626C4E8-F23B-4B12-8128-3BD93331B348}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2626C4E8-F23B-4B12-8128-3BD93331B348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794B7A25-D56C-930F-9428-3926894440CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794B7A25-D56C-930F-9428-3926894440CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794B7A25-D56C-930F-9428-3926894440CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794B7A25-D56C-930F-9428-3926894440CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9658942E-F2E9-4302-B216-04DB5D9046D6}
+		SolutionGuid = {A2FFDFA2-45D2-441C-ADC2-7BE734BD2DBA}
 	EndGlobalSection
 EndGlobal
