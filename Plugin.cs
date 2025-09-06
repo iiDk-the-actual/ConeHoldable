@@ -17,7 +17,7 @@ namespace ConeHoldable
         void OnGameInitialized()
         {
             GameObject cone = LoadAsset("ConeHold");
-            cone.transform.SetParent(GorillaTagger.Instance.offlineVRRig.transform.Find("RigAnchor/rig/body/shoulder.R/upper_arm.R/forearm.R/hand.R"), false);
+            cone.transform.SetParent(GorillaTagger.Instance.offlineVRRig.transform.Find("GorillaPlayerNetworkedRigAnchor/rig/body/shoulder.R/upper_arm.R/forearm.R/hand.R"), false);
         }
 
         static AssetBundle assetBundle = null;
