@@ -7,6 +7,6 @@
     {
         public const string GUID = "com.goldentrophy.gorillatag.coneholdable";
         public const string Name = "ConeHoldable";
-        public const string Version = "1.0.3";
+        public const string Version = "1.0.4";
     }
 }
